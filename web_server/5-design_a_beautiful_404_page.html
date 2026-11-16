@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>404 - Lost in space</title>
+<style>
+  body { margin:0; height:100vh; display:flex; align-items:center; justify-content:center;
+         background:radial-gradient(circle at 30% 20%, #1b2a6b, #05060f 70%);
+         font-family:Georgia, serif; color:#eef; text-align:center; overflow:hidden; }
+  h1 { font-size:9rem; margin:0; letter-spacing:.5rem;
+       background:linear-gradient(90deg,#ff6ec7,#7873f5,#4ade80); -webkit-background-clip:text;
+       color:transparent; }
+  p { font-size:1.6rem; font-style:italic; }
+  a { color:#4ade80; text-decoration:none; border:1px solid #4ade80; padding:.6rem 1.2rem;
+      border-radius:2rem; transition:.3s; }
+  a:hover { background:#4ade80; color:#05060f; }
+  .astro { font-size:5rem; display:inline-block; animation:float 4s ease-in-out infinite; }
+  @keyframes float { 50% { transform:translateY(-25px) rotate(15deg); } }
+</style>
+</head>
+<body>
+  <div>
+    <h1>404</h1>    <div class="astro">
+    <p>Ceci n'est pas une page</p>
+    <a href="/">Take me home</a>
+  </div>
+</body>
+</html>
